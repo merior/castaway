@@ -20,6 +20,13 @@ body {
   text-decoration: none;
 }
 
+.button {
+  background: #118DA8;
+  padding: 12px 15px 12px 20px;
+  border-radius: 6px;
+  border-style: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -115,5 +122,82 @@ body {
   position: absolute;
   margin-top: -25px;
   margin-left: -678px;
+}
+
+.last {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.last__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.last__tittle {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 79px;
+}
+
+.last__all {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.card {
+  padding: 40px;
+  display: flex;
+  background: #000000;
+  border-radius: 32px;
+}
+
+.card:nth-child(2) {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card__inside {
+  margin-left: 35px;
+}
+
+.card__ep {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #118DA8;
+  margin-bottom: 16px;
+  margin-top: 48px;
+}
+
+.card__tittle {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  max-width: 701px;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.card__txt {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  max-width: 757px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 35px;
+}
+
+.strong {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #191919;
+  border-radius: 6px;
 }
 /*# sourceMappingURL=style.css.map */
