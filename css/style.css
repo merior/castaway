@@ -11,6 +11,7 @@ body {
 }
 
 .txt {
+  margin: 0;
   font-family: 'DM Sans', sans-serif;
   color: white;
 }
@@ -49,5 +50,70 @@ body {
 
 .header-logo {
   margin-left: 50px;
+}
+
+.promo {
+  display: flex;
+  padding-top: 40px;
+}
+
+.promo__man {
+  margin-left: 70px;
+}
+
+.promo__info {
+  margin-top: 294px;
+  margin-left: 60px;
+}
+
+.promo__txt {
+  max-width: 526px;
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.promo__tittle {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+}
+
+.span__next {
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 88px;
+  position: relative;
+}
+
+.span__level {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 88px;
+}
+
+.listenon__txt {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.listenon__links {
+  margin-top: 16px;
+  max-width: 228px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vector__img {
+  position: absolute;
+  margin-top: -13px;
+  margin-left: -3px;
+}
+
+.vector__stick {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -678px;
 }
 /*# sourceMappingURL=style.css.map */
