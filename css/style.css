@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav__link {
+  transition: 1s;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.header-nav__link:hover {
+  color: #118DA8;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+  background-color: #191919;
+}
+
+.txt {
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
